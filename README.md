@@ -33,5 +33,5 @@ A simple URL shortener application built with Node.js, Redis, and Docker. This a
 git clone https://github.com/dkobzar5/URL_Shortener.git
 cd URL_Shortener
 docker-compose up --build
-
+```
 Works on http://localhost:3000
