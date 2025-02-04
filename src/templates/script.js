@@ -1,7 +1,15 @@
+function isValidUrl(url) {
+    try {
+        new URL(url);
+        return true;
+    } catch (error) {
+        return false;
+    }
+}
 document.getElementById("shortenBtn").addEventListener("click", async function() {
     const longUrl = document.getElementById("longUrl").value.trim();
 
-    if (!longUrl) {
+    if (!isValidUrl(longUrl)) {
         alert("Please enter a valid URL!");
         return;
     }
