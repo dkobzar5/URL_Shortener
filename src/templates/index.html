@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>Shorten Your URL</h1>
+            <p>Enter your long URL and we'll shorten it for you!</p>
+
+            <div class="input-group">
+                <input type="url" id="longUrl" placeholder="Paste your long URL here">
+                <button id="shortenBtn">Shorten</button>
+            </div>
+
+            <div id="result" class="result">
+                <h3>Your Shortened URL:</h3>
+                <a id="shortUrl" href="#" target="_blank"></a>
+                <button id="copyBtn">Copy URL</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
