@@ -27,7 +27,7 @@ A simple URL shortener application built with Node.js, Redis, and Docker. This a
 
 ### Installation
 
-#### 1. Clone the repository:
+#### 1. Clone the repository and start with Docker:
 
 ```bash
 git clone https://github.com/your-username/URL_Shortener.git
