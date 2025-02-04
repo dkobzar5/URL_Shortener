@@ -32,14 +32,6 @@ A simple URL shortener application built with Node.js, Redis, and Docker. This a
 ```bash
 git clone https://github.com/your-username/URL_Shortener.git
 cd URL_Shortener
-
-# Build and Run the App with Docker
-
-### 3. Build and Run the App with Docker
-
-To build and start both the application and Redis using Docker Compose, run the following command:
-
-```bash
 docker-compose up --build
 
 
